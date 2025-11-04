@@ -16,7 +16,7 @@ A reference image of the target face is uploaded, and the system automatically d
 ---
 
 ## 📁 Project Structure
-
+```
 video_extract_api/
 │
 ├─ templates/                  # HTML UI files
@@ -31,10 +31,7 @@ video_extract_api/
 ├─ processing.py               # Video processing logic
 ├─ requirements.txt
 └─ README.md
-
-
-yaml
-Copy code
+```
 
 ---
 
