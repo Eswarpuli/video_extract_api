@@ -19,18 +19,19 @@ A reference image of the target face is uploaded, and the system automatically d
 
 video_extract_api/
 │
-├─ templates/ # HTML UI files
-│ ├─ index.html
-│ └─ results.html (optional)
+├─ templates/                  # HTML UI files
+│  ├─ index.html
+│  └─ results.html (optional)
 │
-├─ uploads/ # Video uploads (runtime)
-├─ refer/ # Reference face images (runtime)
-├─ output/ # Extracted result
+├─ uploads/                    # Video uploads (runtime)
+├─ refer/                      # Reference face images (runtime)
+├─ output/                     # Extracted result
 │
-├─ main.py # FastAPI app
-├─ processing.py # Face extraction logic
+├─ main.py                     # FastAPI app
+├─ processing.py               # Video processing logic
 ├─ requirements.txt
 └─ README.md
+
 
 yaml
 Copy code
