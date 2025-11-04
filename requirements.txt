@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+moviepy
+opencv-python
+numpy
+insightface
+onnxruntime-gpu
+Pillow
+glob2

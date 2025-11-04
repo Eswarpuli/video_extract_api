@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head><title>Face Video Extractor</title></head>
+<body>
+  <h2>Upload video and reference face</h2>
+
+  {% if message %}
+    <p><strong>{{ message }}</strong></p>
+  {% endif %}
+
+  <form action="/process" method="post" enctype="multipart/form-data">
+    <label>Video file:</label><br>
+    <input type="file" name="video" required><br><br>
+    
+    <label>Reference image:</label><br>
+    <input type="file" name="ref_img" required><br><br>
+
+    <button type="submit">Upload & Process</button>
+  </form>
+
+  <p><a href="/results">View Processed Results</a></p>
+</body>
+</html>
